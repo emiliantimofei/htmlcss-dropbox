@@ -69,6 +69,18 @@ header{
     position: fixed;
     background-color: var(--color-main-color);
 }
+h1{
+    font-size: 60px;
+    padding-top: 40px;
+}
+p{
+    padding-top: 52px;
+}
+i{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
 nav a{
     text-decoration: none;
     color: var(--coror-grey);
@@ -76,13 +88,18 @@ nav a{
 }
 #hero a{
     text-decoration: none;
-    color: var(--color-main-color);
     font-size: 13px;
+}
+#null{
+    color: var(--color-black);
 }
 .btn{
     background-color: var(--color-blue-intense);
     padding: 10px;
     color: var(--color-main-color);
+}
+.align-self{
+    align-self: flex-start;
 }
 .padding-nav{
     padding: 5px;
@@ -95,7 +112,10 @@ nav a{
     width: 700px;
     background-size: contain;
     position: relative;
-    top: 60px;
+    top: 58px;
 }
 
+.left a{
+    margin-top: 20px;
+}
 
