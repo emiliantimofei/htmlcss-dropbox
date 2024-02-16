@@ -27,9 +27,6 @@ ul{
 	--color-ocra: #f5f5f5;
     --coror-grey: grey;
 }
-.margin-auto{
-    margin: 0 auto;
-}
 /*flex*/
 .d-flex{
     display: flex;
@@ -66,6 +63,9 @@ ul{
 }
 .smaller-contain{
     max-width: 800px;
+}
+.margin-auto{
+    margin: 0 auto;
 }
 /*header*/
 nav{
@@ -163,6 +163,13 @@ nav a{
 .margin-tvb{
     margin-top: 140px;
 }
+.margin-double{
+    margin: 40px 40px;
+    padding-top: 170px;
+}
+.big-padding{
+    padding: 100px 0 100px 0;
+}
 /*width*/
 .width-box{
     width: 100%;
@@ -208,23 +215,82 @@ nav a{
 
 /*a-side partners*/
 .bg-size-general-partner{
-    border: solid black 1px;
     width: calc(100% / 3);
-    height: calc(1200px / 3);
+    height: calc(1400px / 3);
 }
 .bg-part-gen{
     background-position: center;
     background-size: 150px;
     background-repeat: no-repeat;
-    height: 200px;
+    height: calc(100% / 2);
     width: 50%;
 }
 .box-1-l{
     background-color: var(--color-light-green);
 }
+.box-2-l{
+    background-color: var(--color-card-violet);
+}
+.box-3-l{
+    background-color: var(--color-card-blue);
+}
+.box-4-l{
+    background-color: var(--color-red-card);
+}
+.box-1-r{
+    background-color: var(--color-high-red);
+}
+.box-2-r{
+    background-color: var(--color-light-blue)
+}
+.box-3-r{
+    background-color: var(--color-high-blue);
+}
+.box-4-r{
+    background-color: var(--color-funny-yellow);
+}
+.box-center{
+    background-color: var(--color-ocra);
+}
+
 .bg-part-1{
     background-image: url(../img/designit.svg);
-
 }
+.bg-part-2{
+    background-image: url(../img/arizona_state_university.svg);
+}
+.bg-part-3{
+    background-image: url(../img/university_of_florida.svg);
+}
+.bg-part-4{
+    background-image: url(../img/topps.svg);
+}
+.bg-center{
+    background-image: url(../img/designit.svg);
+    background-repeat: no-repeat;
+    background-position: 40px 40px;
+    background-size: 240px;
+}
+.bg-part-5{
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+.bg-part-6{
+    background-image: url(../img/hearst_corp.svg);
+}
+.bg-part-7{
+    background-image: url(../img/lonely_planet.svg);
+}
+.bg-part-8{
+    background-image: url(../img/clear_channel.svg);
+}
+
+.side-jumbo-color{
+    background-color: var(--color-light-blue);
+    color: var(--color-card-violet);
+}
+
+
+
+
 
 
