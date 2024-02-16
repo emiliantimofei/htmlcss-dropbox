@@ -160,6 +160,9 @@ nav a{
 .margin-t-small{
     margin-top: 40px;
 }
+.margin-tvb{
+    margin-top: 140px;
+}
 /*width*/
 .width-box{
     width: 100%;
@@ -170,12 +173,58 @@ nav a{
     width: 60%;
 }
 .sixty img{
-    background-size: contain;
     width: 100%;
 }
 .forty{
     width: 40%;
 }
+.card{
+    width: calc(800px / 3);
+}
+.bg-general-card{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%
+}
+.bg-card-1{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+.bg-card-2{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+.bg-card-3{
+    background-image: url(../img/business-feature-security.png);
+}
+.bg-card-4{
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+.bg-card-5{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+.bg-card-6{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
 
+/*a-side partners*/
+.bg-size-general-partner{
+    border: solid black 1px;
+    width: calc(100% / 3);
+    height: calc(1200px / 3);
+}
+.bg-part-gen{
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 50%;
+}
+.box-1-l{
+    background-color: var(--color-light-green);
+}
+.bg-part-1{
+    background-image: url(../img/designit.svg);
+
+}
 
 
