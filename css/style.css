@@ -124,10 +124,19 @@ nav a{
 .text-align{
     text-align: center;
 }
+.align-r-carret{
+    text-align: right;
+}
 
 /*margin - padding - border*/
+.pad-b-s{
+    padding-bottom: 20px;
+}
 .margin-t-main{
     margin-top: 80px;
+}
+.margin-18{
+    margin-top: -26px;
 }
 .margin-b-main{
     margin-bottom: 60px;
@@ -143,6 +152,18 @@ nav a{
 }
 .padding-pb{
     padding: 25px;
+}
+.pad-tside{
+    padding-top: 15px;
+}
+.pad-bside{
+    padding-bottom: 25px;
+}
+.rule-b{
+    border-bottom: var(--coror-grey) solid 1px;
+}
+.rule-t{
+    border-top: var(--coror-grey) solid 1px;
 }
 .border-padding-title-pb{
     border-bottom: solid var(--coror-grey) 2px;
@@ -288,7 +309,12 @@ nav a{
     background-color: var(--color-light-blue);
     color: var(--color-card-violet);
 }
-/*a-side-3*/
+/*Footer*/
+#black{
+    background-color: var(--color-black);
+    color: white;
+    min-height: 300px;
+}
 
 
 
