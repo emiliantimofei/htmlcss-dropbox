@@ -283,11 +283,14 @@ nav a{
 .bg-part-8{
     background-image: url(../img/clear_channel.svg);
 }
-
+/*a-side 2*/
 .side-jumbo-color{
     background-color: var(--color-light-blue);
     color: var(--color-card-violet);
 }
+/*a-side-3*/
+
+
 
 
 
