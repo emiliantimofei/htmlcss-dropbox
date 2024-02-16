@@ -7,6 +7,7 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    min-width: 1200px;
 }
 ul{
     list-style: none;
@@ -49,8 +50,8 @@ ul{
 .space-between{
     justify-content: space-between;
 }
-.text-align{
-    text-align: center;
+.align-self{
+    align-self: flex-start;
 }
 .debug{
     border: solid black 2px;
@@ -58,10 +59,13 @@ ul{
 }
 /*containers*/
 .contain{
-    max-width: 1400px;
+    max-width: 1200px;
 }
 .small-contain{
     max-width: 1000px;
+}
+.smaller-contain{
+    max-width: 800px;
 }
 /*header*/
 nav{
@@ -71,12 +75,12 @@ nav{
 }
 h1{
     font-size: 60px;
-    padding-top: 40px;
+    padding-top: 80px;
 }
-p{
+header p{
     padding-top: 52px;
 }
-i{
+header i{
     padding-top: 30px;
     padding-bottom: 15px;
     font-size: 40px;
@@ -98,9 +102,7 @@ nav a{
     padding: 10px;
     color: var(--color-main-color);
 }
-.align-self{
-    align-self: flex-start;
-}
+
 .padding-nav{
     padding: 5px;
 }
@@ -118,4 +120,62 @@ nav a{
 .left a{
     margin-top: 20px;
 }
+/*align*/
+.text-align{
+    text-align: center;
+}
+
+/*margin - padding - border*/
+.margin-t-main{
+    margin-top: 80px;
+}
+.margin-b-main{
+    margin-bottom: 60px;
+}
+.margin-right-radio{
+    margin-right: 30px;
+}
+.margin-right-sphere{
+    margin-right: 10px;
+}
+.border-pb{
+    border: solid var(--coror-grey) 2px;
+}
+.padding-pb{
+    padding: 25px;
+}
+.border-padding-title-pb{
+    border-bottom: solid var(--coror-grey) 2px;
+    padding: 10px;
+}
+.mgt-h{
+    margin-top: 20px;
+}
+.margin-b-strg{
+    margin-bottom: 15px;
+}
+.m-small{
+    margin-bottom: 25px;
+}
+.margin-t-small{
+    margin-top: 40px;
+}
+/*width*/
+.width-box{
+    width: 100%;
+}
+
+/*main*/
+.sixty{
+    width: 60%;
+}
+.sixty img{
+    background-size: contain;
+    width: 100%;
+}
+.forty{
+    width: 40%;
+}
+
+
 
