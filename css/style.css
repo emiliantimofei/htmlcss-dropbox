@@ -35,7 +35,7 @@ ul{
     flex-wrap: wrap;
 }
 .gap{
-    gap: 25px;
+    gap: 20px;
 }
 .align-center{
     align-items: center;
@@ -303,6 +303,36 @@ nav a{
 }
 .bg-part-8{
     background-image: url(../img/clear_channel.svg);
+}
+.price{
+    font-size: 12px;
+}
+.grey-under-price{
+    color: var(--coror-grey);
+    font-size: 14px;
+}
+.single{
+    font-size: 12px;
+}
+.single-2{
+    font-size: 14px;
+}
+.btn-plan{
+    padding: 12px 32px;
+    font-size: 12px;
+    background-color: var(--color-blue-intense);
+    color: var(--color-main-color);
+    border: none;
+}
+.short-border{
+    border-bottom: var(--coror-grey) solid 1px;
+    padding-bottom: 18px;
+}
+.list-margin{
+    margin: 6px;
+}
+.blue-check{
+    color: var(--color-blue-intense);
 }
 /*a-side 2*/
 .side-jumbo-color{
