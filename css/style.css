@@ -25,7 +25,7 @@ ul{
 	--color-high-blue: #0d2481;
 	--color-funny-yellow: #ffd830;
 	--color-ocra: #f5f5f5;
-    --coror-grey: grey;
+    --color-grey: grey;
 }
 /*flex*/
 .d-flex{
@@ -35,7 +35,7 @@ ul{
     flex-wrap: wrap;
 }
 .gap{
-    gap: 20px;
+    gap: 25px;
 }
 .align-center{
     align-items: center;
@@ -87,7 +87,7 @@ header i{
 }
 nav a{
     text-decoration: none;
-    color: var(--coror-grey);
+    color: var(--color-grey);
     font-size: 13px;
 }
 #hero a{
@@ -101,6 +101,9 @@ nav a{
     background-color: var(--color-blue-intense);
     padding: 10px;
     color: var(--color-main-color);
+}
+.btn:hover{
+    box-shadow: inset 0 0 0 5px var(--color-card-blue);
 }
 
 .padding-nav{
@@ -148,7 +151,7 @@ nav a{
     margin-right: 10px;
 }
 .border-pb{
-    border: solid var(--coror-grey) 1px;
+    border: solid var(--color-grey) 1px;
 }
 .padding-pb{
     padding: 25px;
@@ -160,13 +163,13 @@ nav a{
     padding-bottom: 25px;
 }
 .rule-b{
-    border-bottom: var(--coror-grey) solid 1px;
+    border-bottom: var(--color-grey) solid 1px;
 }
 .rule-t{
-    border-top: var(--coror-grey) solid 1px;
+    border-top: var(--color-grey) solid 1px;
 }
 .border-padding-title-pb{
-    border-bottom: solid var(--coror-grey) 1px;
+    border-bottom: solid var(--color-grey) 1px;
     padding: 10px;
 }
 .mgt-h{
@@ -207,7 +210,7 @@ nav a{
     width: 40%;
 }
 .card{
-    width: calc(800px / 3);
+    width: calc(800px / 3 - 20px);
 }
 .bg-general-card{
     background-size: contain;
@@ -308,7 +311,7 @@ nav a{
     font-size: 12px;
 }
 .grey-under-price{
-    color: var(--coror-grey);
+    color: var(--color-grey);
     font-size: 14px;
 }
 .single{
@@ -318,18 +321,22 @@ nav a{
     font-size: 14px;
 }
 .btn-plan{
+    width: 200px;
     padding: 12px 32px;
     font-size: 12px;
     background-color: var(--color-blue-intense);
     color: var(--color-main-color);
     border: none;
 }
+.btn-plan:hover{
+    box-shadow: inset 0 0 0 5px var(--color-card-blue);
+}
 .btn-bcta{
     padding: 12px 32px;
     font-size: 12px;
     background-color: var(--color-main-color);
-    color: var(--coror-grey);
-    border: solid var(--coror-grey) 1px;
+    color: var(--color-grey);
+    border: solid var(--color-grey) 1px;
 }
 .btn-cta{
     padding: 8px 32px;
@@ -338,12 +345,18 @@ nav a{
     color: var(--color-black);
     border: none;
 }
+.btn-cta:hover{
+    box-shadow: inset 0 0 0 5px var(--color-grey);
+}
+.btn-bcta:hover{
+    box-shadow: inset 0 0 0 5px var(--color-grey);
+}
 .short-border{
-    border-bottom: var(--coror-grey) solid 1px;
+    border-bottom: var(--color-grey) solid 1px;
     padding-bottom: 18px;
 }
 .short-border-top{
-    border-top: var(--coror-grey) solid 1px;
+    border-top: var(--color-grey) solid 1px;
     padding-top: 18px;
 }
 .list-margin{
@@ -355,7 +368,7 @@ nav a{
 .word-space-size-and-color{
     text-indent: 1em;
     font-size: 12px;
-    color: var(--coror-grey);
+    color: var(--color-grey);
 }
 /*a-side 2*/
 .side-jumbo-color{
@@ -369,12 +382,27 @@ nav a{
 .margin-bot-list{
     margin-bottom: 5px;
 }
-
+.world-wrap{
+    word-wrap: break-word;
+}
+.fil{
+    filter: invert();
+}
 /*Footer*/
 #black{
     background-color: var(--color-black);
     color: white;
     min-height: 300px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--color-main-color);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.list-size{
+    font-size: 0.8em;
 }
 
 
