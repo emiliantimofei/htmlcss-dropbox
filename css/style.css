@@ -160,11 +160,15 @@ nav a{
     background-color: var(--color-blue-intense);
     color: var(--color-main-color);
 }
-
+.arrow{
+    text-decoration: none;
+    color: black;
+}
 /*align*/
 .text-align{
     text-align: center;
 }
+
 .align-r-carret{
     text-align: right;
 }
