@@ -44,8 +44,14 @@ ul{
 .direction{
     flex-direction: column;
 }
+.dir-row{
+    flex-direction: row;
+}
 .space-between{
     justify-content: space-between;
+}
+.just-c{
+    justify-content: center;
 }
 .align-self{
     align-self: flex-start;
@@ -94,6 +100,9 @@ nav a{
 }
 #null{
     color: var(--color-black);
+}
+#null:hover{
+    text-decoration: underline;
 }
 .btn{
     background-color: var(--color-blue-intense);
@@ -278,11 +287,17 @@ nav a{
 .bg-card-6{
     background-image: url(../img/business-feature-coordinate-it.png);
 }
-
+.filter{
+    filter: invert();
+    width: 150px;
+}
 /*a-side partners*/
 .bg-size-general-partner{
     width: calc(100% / 3);
     height: calc(1400px / 3);
+}
+.bg-size-gen-h{
+    width: 50%;
 }
 .bg-part-gen{
     background-position: center;
@@ -291,6 +306,7 @@ nav a{
     height: calc(100% / 2);
     width: 50%;
 }
+
 .box-1-l{
     background-color: var(--color-light-green);
 }
@@ -319,36 +335,14 @@ nav a{
     background-color: var(--color-ocra);
 }
 
-.bg-part-1{
-    background-image: url(../img/designit.svg);
-}
-.bg-part-2{
-    background-image: url(../img/arizona_state_university.svg);
-}
-.bg-part-3{
-    background-image: url(../img/university_of_florida.svg);
-}
-.bg-part-4{
-    background-image: url(../img/topps.svg);
-}
+
 .bg-center{
     background-image: url(../img/designit.svg);
     background-repeat: no-repeat;
     background-position: 40px 40px;
     background-size: 240px;
 }
-.bg-part-5{
-    background-image: url(../img/world_bicycle_relief.svg);
-}
-.bg-part-6{
-    background-image: url(../img/hearst_corp.svg);
-}
-.bg-part-7{
-    background-image: url(../img/lonely_planet.svg);
-}
-.bg-part-8{
-    background-image: url(../img/clear_channel.svg);
-}
+
 .price{
     font-size: 12px;
 }
@@ -427,9 +421,7 @@ nav a{
 .world-wrap{
     word-wrap: break-word;
 }
-.fil{
-    filter: invert();
-}
+
 /*Footer*/
 #black{
     background-color: var(--color-black);
